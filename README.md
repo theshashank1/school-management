@@ -1,3 +1,6 @@
+Here's the updated **README.md** with the Vercel endpoints included for testing the API:
+
+---
 
 # School Management API
 
@@ -55,7 +58,7 @@ DB_NAME=your-database-name
 npm start
 ```
 
-API will be running on `http://localhost:3306` OR `http://localhost:3000`.
+API will be running on `http://localhost:3000`.
 
 ---
 
@@ -114,9 +117,19 @@ You can test the API using the [Postman collection](https://www.postman.com/flig
 
 ---
 
+## Vercel Endpoints
+
+The API is deployed on Vercel. You can test the API using the following endpoints:
+
+- **GET**: [https://school-management-api-rose.vercel.app/api/listSchools?latitude=37.7749&longitude=-122.4194](https://school-management-api-rose.vercel.app/api/listSchools?latitude=37.7749&longitude=-122.4194)
+  
+- **POST**: [https://school-management-api-rose.vercel.app/api/addschool](https://school-management-api-rose.vercel.app/api/addschool)
+
+---
+
 ## Deployment
 
-Deploy in **Vercel**. Ensure that the `.env` variables are configured in your platform's environment settings.
+Deploy to platforms like **Heroku**, **Vercel**, or **AWS**. Ensure that the `.env` variables are configured in your platform's environment settings.
 
 
 ---
@@ -124,5 +137,3 @@ Deploy in **Vercel**. Ensure that the `.env` variables are configured in your pl
 ## Contact
 
 For questions or issues, open an issue or contact at `shashankgundas1@gmail.com`.
-
----
