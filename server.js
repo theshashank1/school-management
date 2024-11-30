@@ -2,6 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const { initializeDatabase } = require('./config/database');
 const schoolRoutes = require('./routes/schoolRoutes');
+const cors = require('cors')
 
 // Load environment variables
 dotenv.config();
@@ -11,6 +12,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
+app.use(cors())
 
 // Routes
 app.use('/api', schoolRoutes);
