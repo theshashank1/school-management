@@ -1,6 +1,4 @@
-Here's the updated **README.md** with the Vercel endpoints included for testing the API:
 
----
 
 # School Management API
 
